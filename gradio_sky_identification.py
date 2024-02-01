@@ -5,16 +5,6 @@ import gradio as gr
 import cv2
 import numpy as np
 
-# Function to apply histogram equalization on the V channel of the HSV image
-# to enhance contrast and improve feature detection.
-def histogram_equalization(hsv_image):
-    # Separate the HSV channels
-    h, s, v = cv2.split(hsv_image)
-    # Apply histogram equalization to the V channel
-    v_equalized = cv2.equalizeHist(v)
-    # Merge the channels back into an HSV image
-    hsv_equalized = cv2.merge((h, s, v_equalized))
-    return hsv_equalized
 
 # Function to calculate the threshold values for sky detection
 # based on the top region of the image, which is assumed to contain the sky.
