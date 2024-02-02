@@ -2,8 +2,8 @@
 A program (with Gradio demo) to identify sky pixels using traditional computer vision techniques. It can identify the sky in different colors (grey, blue, pink, orange) except for the night sky.
 
 ## Instruction: 
-Link to Gradio demo: https://650bc6c2f4c48bc875.gradio.live.
-If the gradio link expires, please run the .py file on your device to get a new link.
+Link to Gradio demo on HuggingFace: https://huggingface.co/spaces/hannahnguyen/skydetection.
+You can also run the .py file on your device to get a new Gradio link.
 
 ## Outputs:
 
